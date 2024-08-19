@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="Style/styles.css">
+    <title>personal portfolio website</title>
+</head>
+<body>
+    <!-- HEADER DESIGN -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#Home" class="active">Home</a>
+            <a href="#About">About</a>
+            <a href="#Portfolio">Portfolio</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION DESIGN -->
+     <section class="home" id="Home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Percy Jyotsna Kondaveeti</h1>
+            <h3>I'm a <span>passionate B.Tech student specializing in Computer Science</span></h3>
+            <p>I'm driven by curiosity and a strong desire to learn and innovate. I have experience in web development and I’m always eager to explore new challenges and opportunities.</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+        </div>
+
+        <div class="home-img">
+            <img src="img/my pic.jpg" alt="">
+        </div>
+    </section>
+
+
+    <!-- ABOUT SECTION DESIGN -->
+    <section class="about" id="About">
+        <div class="about-img">
+            <img src="img/aboutpic.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+            <h3>B.Tech Student</h3>
+            <p>I’m a third-year B.Tech student specializing in Computer Science at Vignan's Foundation for Science Technology and Research(VFSTR), with a strong passion for Software Development. I’ve developed a solid foundation in  Python and web development.My academic journey has involved small projects such as To-Do-List, e-Commerce website, Connect-Four Game and Calculator. Additionally, I’ve been actively involved in SAC, where I’ve honed my teamwork. I’ve also achieved first place in puzzle solver game conducted in Hindu College of Engineering and Technology(HCET). Looking forward, I aspire to contribute to innovative technology solutions in the software industry after graduation.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION DESIGN -->
+    <section class="portfolio" id="Portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Calculator</h4>
+                    <a href="https://www.linkedin.com/posts/percy-jyotsna-481790313_internpe-activity-7219193716593360896-s941?utm_source=share&utm_medium=member_desktop" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>e-Commerce</h4>
+                    <a href="https://www.linkedin.com/posts/percy-jyotsna-481790313_internpe-webdevelopment-internship-activity-7222767832172802048-g_Hm?utm_source=share&utm_medium=member_desktop" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>To-Do-List</h4>
+                    <a href="https://www.linkedin.com/posts/percy-jyotsna-481790313_internpe-webdevelopment-internship-activity-7223964644690788354-pv6S?utm_source=share&utm_medium=member_desktop" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Connect-Four</h4>
+                    <a href="https://www.linkedin.com/posts/percy-jyotsna-481790313_internpe-webdevelopment-internship-activity-7226883369739968512-HjX_?utm_source=share&utm_medium=member_desktop" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION DESIGN -->
+    <section class="contact" id="Contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <!-- FOOTER DESIGN -->
+    
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @percy jyotsna | All Rights Reserved</p>
+        </div>
+        
+    </footer>
+
+    <!-- SCROLL REVEAL JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    
+
+    <!-- MAIN JS -->
+    <script src="JS/main.js"></script>    
+</body>
+</html>
